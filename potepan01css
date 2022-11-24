@@ -1,0 +1,521 @@
+body{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.FirstView{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1080px){
+  .FirstView{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .FirstView{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.imgLogo{
+  width: auto;
+  height: 20px;
+}
+
+@media screen and (max-width: 1080px){
+  .imgLogo {
+    transition: opacity .2s;
+  }
+}
+
+.header{
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+  position: relative;
+  align-items: center;
+}
+
+@media screen and (max-width: 1080px){
+  .header{
+    background-color: #fff;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .header{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.header>:last-child {
+    display: inline-flex;
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNav{
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-bottom: 75px;
+    transition: transform .5s;
+    z-index: 99;
+    background-color: rgba(0,0,0,.8);
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    transition: top .2s,transform .2s,opacity .3s;
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line:first-child{
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger_line{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    transition: top .2s,transform .2s,opacity .3s;
+   }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavHamburger{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+    white-space: nowrap;
+   }
+}
+
+.HeaderNavListItem{
+  padding-right: 60px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavListItem{
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .HeaderNavList {
+    top: 52px;
+  }
+}
+
+@media screen and (min-width: 767px){
+  .HeaderNavListItem {
+    transition: opacity .2s;
+  }
+}
+  
+@media screen and (max-width: 1080px){
+  .HeaderNavListItem_link {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .HeaderNavListItem_link>span:last-child {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f79214;
+    letter-spacing: 2px;
+  }
+}
+
+
+@media screen and (max-width: 1080px){
+  .HeaderNavListItem:last-of-type {
+    margin-top: 20px;
+  }
+}
+
+.HeaderNavListItem:last-child{
+  align-items: center;
+  background-color: #ff9800;
+  border-radius: 38px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.navi{
+  display: flex;
+  justify-content: space-between;
+  font-family: "ヒラギノ角ゴProN W3";
+  text-align: center;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+span{
+  display: block
+}
+
+.navi-document{
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.navi-pamphlet{
+  font-size: 14px;
+  color: #000000;
+}
+
+.navi-link{
+  align-items: center;
+  background-color: #ff9800;
+  border-radius: 38px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px){
+  .navi-link{
+    font-size: 16px;
+    margin: 0 auto;
+    height: 60px;
+    width: 250px;
+  }
+}
+
+ .main{
+  margin-left: 145px;
+  position: relative;
+  height: auto;
+ }
+
+@media screen and (max-width: 1080px){
+  .main{
+    padding-top: 200px;
+    margin-left: 145px;
+    align-items: flex-start;
+    max-width: 1080px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .main{
+    max-width: 767px;
+    height: 832px;
+    position: relative;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .main{
+    margin-top: 0;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .main{
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.main-text{
+  position: relative;
+  top: 5%;
+  left: 15%;
+  width: auto;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px){
+  .main-text{
+    font-size: 13px;
+    line-height: 36px;
+  }
+}
+
+h1{
+display: inline-block;
+text-align: center;
+}
+
+.main-image{
+  padding: 5px;
+  margin-left: 145px;
+}
+
+@media screen and (max-width: 767px){
+  .main-image{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .main-image{
+    width: 27.5%;
+    align-items: center;
+  }
+}
+
+.main-click{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 145px;
+}
+
+@media screen and (max-width: 767px){
+  .main-click{
+    flex-direction: column;
+  }
+}
+
+.main-clickOrange{
+  align-items: center;
+  background-color: #ff9800;
+  border-radius: 38px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 767px){
+  .mmain-clickOrange{
+    margin-left: 0;
+  }
+}
+
+.main-clickWhite{
+  align-items: center;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  padding: 0px 30px;
+  border-top-left-radius: 38px;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+  border-bottom-left-radius: 38px;
+  border: 1px solid #c0c0c0;
+}
+
+@media screen and (max-width: 767px){
+  .main-clickWhite{
+    display: none;
+  }
+}
+
+.main-attention{
+  color: #c0c0c0;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 145px;
+  text-align: left;
+}
+
+.video{
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff9800;
+  display: flex;
+  padding-top: 35px;
+}
+
+@media screen and (max-width: 767px){
+  .video{
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .video{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .video{
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.aboutvideo{
+  box-sizing: border-box;
+  object-fit: contain;
+  width: 50%;
+  margin-bottom: 16px;
+  margin-left: 145px;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px){
+  .aboutvideo{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .aboutvideo{
+    margin-bottom: 16px;
+    width: 75%;
+    margin-left: 0;
+  }
+}
+
+.aboutTitle{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  margin-left: 32px;
+}
+
+.aboutTitle p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.aboutTitle h2{
+  font-family: "ヒラギノ角ゴ Pro W3";
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  line-height: 54px;
+}
+
+@media screen and (max-width: 767px){
+  .aboutTitle{
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .aboutTitle{
+    margin-left: 0;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .aboutTitle h2 p {
+    letter-spacing: 1px;
+  }
+}
+
+.aboutStudy{
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.icon{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.aboutPotepanCamp{
+  list-style: none;
+}
