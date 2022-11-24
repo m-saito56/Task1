@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>サイト模写</title>
+    <link rel="stylesheet" href="potepan1.css">
+  </head>
+  
+  <body>
+    <div class="FirstView">
+      <header class="header">
+        <a href="https://camp.potepan.com/"><img class="imgLogo" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo.png.webp" alt="POTEPAN CAMPロゴ"></a>
+        <nav class="HeaderNav">
+          <div class="HeaderNavHamburger">
+            <span class="HeaderNavHamburger_line"></span>
+            <span class="HeaderNavHamburger_line"></span>
+            <span class="HeaderNavHamburger_line"></span>
+          </div>
+          <ul class="navi">
+            <li class="HeaderNavListItem">
+             <a class="HeaderNavListItem_link" href="https://camp.potepan.com/content">
+                <span class="navi-document">CONTENT</span>
+                <span class="navi-pamphlet">学習内容</span>
+              </a>
+            </li>
+            <li class="HeaderNavListItem">
+              <a class="HeaderNavListItem_link" href="https://camp.potepan.com/interview">
+                <span class="navi-document">INTERVIEW</span>
+                <span class="navi-pamphlet">受講生の声</span>
+              </a>
+            </li>
+            <li class="HeaderNavListItem">
+              <a class="HeaderNavListItem_link" href="https://camp.potepan.com/faq">
+                <span class="navi-document">FAQ</span>
+                <span class="navi-pamphlet">よくある質問</span>
+              </a>
+            </li>
+            <li class="HeaderNavListItem">
+              <a class="HeaderNavListItem_link" href="https://camp.potepan.com/recruit">
+                <span class="navi-document">RECRUIT</span>
+                <span class="navi-pamphlet">採用企業様へ</span>
+              </a>
+            </li>
+            <li class="HeaderNavListItem">
+              <a class="HeaderNavListItem_link" href="https://camp.potepan.com/download">
+                <span class="navi-document">DOCUMENT</span>
+                <span class="navi-pamphlet">資料請求</span>
+              </a>
+            </li>
+            <li class="HeaderNavListItem">
+              <a class="HeaderNavListItem_link" href="https://camp.potepan.com/contact">無料カウンセリング</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    
+      <div class="main">
+        <div class="main-text">
+          <h1>
+          最短5ヶ月で<br>
+          未経験からWebエンジニアへ
+          </h1>
+        </div>
+    
+        <div class="main-image">
+          <img class="img-left" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg" alt="内定率100％">
+          <img class="img-center" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg" alt="Webエンジニア輩出No.1">
+          <img class="img-right" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg" alt="全額返金">
+        </div>
+    
+        <div class="main-click">
+          <a class="main-clickOrange" href="https://camp.potepan.com/contact">無料カウンセリングはこちら</a>
+          <a class="main-clickWhite" href="https://camp.potepan.com/download">資料請求はこちら</a>
+        </div>
+    
+        <div class="main-attention">
+          <p>※1:ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020年5月22日〜25日）」より全国の22～49歳の男女691名へのインターネット調査</p>
+          <p>※2:29歳以下の転職サポート実施ユーザ（2021年7月~10月）</p>
+          <p>※3:返金の条件については利用規約をご参照ください</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="video">
+      <video class="aboutvideo" controls src="https://res.cloudinary.com/hqt02ldfz/video/upload/v1650946041/IntroductionMovie/PotepanCamp/movie_sxheh6.mp4" alt="POTEPAN CAMPとは" playsinline prelord="none" muted autoplay></video>
+      <div class="aboutTitle">
+        <h2>POTEPAN CAMPとは</h2>
+        <p>ポテパンキャンプは、Web系開発現場で通用するスキルを身につけるための教育プログラムです。実践的でわかりやすいカリキュラムと適切な学習サポートで効率的に学習できる環境を用意しております。</p>
+        <ul>
+          <a  class="aboutStudy" href="https://camp.potepan.com/content">
+            <li class="aboutPotepanCamp"><img class="icon"src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/about/arrow-icon.svg" alt="矢印アイコン">学習内容はこちら</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
